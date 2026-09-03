@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="MechOS — a gaming-focused Linux operating system built for performance, creators, streaming, and console-style play." />
+  <meta name="theme-color" content="#070913" />
+  <title>MechOS — Built for Gaming</title>
+  <link rel="icon" href="assets/mechos-mark.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="home-page">
+  <div class="site-glow site-glow-1"></div>
+  <div class="site-glow site-glow-2"></div>
+  <div class="site-grid"></div>
+
+<div class="boot-overlay" id="bootOverlay" aria-hidden="true">
+  <div class="boot-panel">
+    <img src="assets/mechos-mark.svg" alt="" class="boot-logo" />
+    <div class="boot-title">MECHOS BOOT SEQUENCE</div>
+    <div class="boot-lines">
+      <div><span>Loading core systems</span><strong>OK</strong></div>
+      <div><span>Initializing MechScope</span><strong>OK</strong></div>
+      <div><span>Verifying Creator Mode</span><strong>OK</strong></div>
+      <div><span>RadarAI diagnostics</span><strong>OK</strong></div>
+    </div>
+    <div class="boot-progress"><span></span></div>
+    <small>Deploying interface...</small>
+  </div>
+</div>
+
+<header class="site-header" id="top">
+  <nav class="nav container">
+    <a class="brand" href="index.html" aria-label="MechOS home">
+      <img src="assets/mechos-mark.svg" alt="" class="brand-mark" />
+      <span>Mech<span>OS</span></span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="download.html">Download</a>
+      <a href="release-notes.html">Release Notes</a>
+      <a href="community.html">Community</a>
+    </div>
+
+    <a class="button button-small button-outline desktop-cta" href="download.html">Get MechOS</a>
+  </nav>
+</header>
+
+<div class="system-ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span>MECHOS // GAMING FIRST</span>
+    <span>MECHSCOPE READY</span>
+    <span>CREATOR MODE ONLINE</span>
+    <span>RADARAI ACTIVE</span>
+    <span>PERFORMANCE CORE ENABLED</span>
+    <span>VIDEO BACKGROUND READY</span>
+    <span>MECHOS // GAMING FIRST</span>
+    <span>MECHSCOPE READY</span>
+    <span>CREATOR MODE ONLINE</span>
+    <span>RADARAI ACTIVE</span>
+    <span>PERFORMANCE CORE ENABLED</span>
+    <span>VIDEO BACKGROUND READY</span>
+  </div>
+</div>
+
+<main>
+
+<section class="hero hero-graphic hero-with-video">
+  <div class="hero-bg">
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="assets/mechos-hero.mp4" type="video/mp4" />
+    </video>
+    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" data-b64-src="assets/hero-bg.b64" alt="MechOS command deck concept art" class="hero-fallback" />
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-particles" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <div class="container hero-content">
+    <div class="hero-copy" data-reveal>
+      <div class="eyebrow"><span class="status-dot"></span> CURRENT TEST BUILD: 0.3.0</div>
+      <h1><span class="hero-bracket">[</span>A gaming OS built to <span>hit harder.</span><span class="hero-bracket">]</span></h1>
+      <p>
+        MechOS is a performance-focused Linux operating system designed for gaming,
+        creators, streaming, VR, and a console-style desktop experience.
+      </p>
+
+      <div class="hero-actions">
+        <a class="button button-primary" href="download.html">Download MechOS</a>
+        <a class="button button-ghost" href="#showcase">View the Interface</a>
+      </div>
+
+      <div class="hero-meta">
+        <div><strong>MechScope</strong><span>Console gaming shell</span></div>
+        <div><strong>Creator Mode</strong><span>One-click creator tools</span></div>
+        <div><strong>RadarAI</strong><span>System diagnostics</span></div>
+      </div>
+    </div>
+
+    <div class="hero-panel" data-reveal>
+      <div class="hero-rail"><span>01</span><span>MECH CORE</span><span>ONLINE</span></div>
+      <div class="panel-topbar">
+        <span>MECHOS // SYSTEM STATUS</span>
+        <span class="panel-live">ONLINE</span>
+      </div>
+      <div class="panel-grid">
+        <div class="panel-card panel-card-main">
+          <div class="panel-kicker">MECHSCOPE</div>
+          <h2>READY TO DEPLOY</h2>
+          <div class="hud-ring">
+            <div class="hud-inner">
+              <span>FPS</span>
+              <strong>144</strong>
+            </div>
+          </div>
+          <div class="meter"><span style="width: 88%"></span></div>
+          <small>Performance profile: Gaming</small>
+        </div>
+        <div class="panel-card">
+          <span class="panel-label">GPU</span>
+          <strong>Optimal</strong>
+          <small>Driver profile loaded</small>
+        </div>
+        <div class="panel-card">
+          <span class="panel-label">LATENCY</span>
+          <strong>Low</strong>
+          <small>Game mode active</small>
+        </div>
+        <div class="panel-card panel-card-wide">
+          <span class="panel-label">RADARAI</span>
+          <div class="status-row">
+            <span>No critical faults detected</span>
+            <span class="pill">Healthy</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-cue" aria-hidden="true"><span></span></div>
+</section>
+
+<section class="trust-strip">
+  <div class="container trust-inner">
+    <span>GAMING</span><span>CREATION</span><span>VR</span>
+    <span>STREAMING</span><span>PERFORMANCE</span><span>LINUX</span>
+  </div>
+</section>
+
+<section class="section container" id="features">
+  <div class="section-heading" data-reveal>
+    <div class="eyebrow">CORE SYSTEMS</div>
+    <h2>Everything built around the player.</h2>
+    <p>MechOS combines a fast gaming shell, desktop tools, creator workflows, diagnostics, and system tuning in one experience.</p>
+  </div>
+
+  <div class="feature-grid">
+    <article class="feature-card featured" data-reveal>
+      <div class="icon-box">MS</div>
+      <h3>MechScope</h3>
+      <p>Boot into a controller-friendly gaming interface designed to feel at home on a handheld, couch setup, or desktop rig.</p>
+      <ul><li>Steam-first game experience</li><li>Quick Actions overlay</li><li>Desktop / game mode switching</li></ul>
+    </article>
+    <article class="feature-card" data-reveal>
+      <div class="icon-box">CM</div>
+      <h3>Creator Mode</h3>
+      <p>Install creator software from one place without digging through setup guides.</p>
+      <ul><li>VRChat creator workflow</li><li>Unity and Unreal tooling</li><li>Creator-focused app store</li></ul>
+    </article>
+    <article class="feature-card" data-reveal>
+      <div class="icon-box">AI</div>
+      <h3>RadarAI</h3>
+      <p>System monitoring designed to identify hardware and software problems and surface useful diagnostic information.</p>
+      <ul><li>Fault detection</li><li>Problem logging</li><li>Update-ready reports</li></ul>
+    </article>
+    <article class="feature-card" data-reveal>
+      <div class="icon-box">PC</div>
+      <h3>Performance Center</h3>
+      <p>Tune the system from a central dashboard instead of bouncing between multiple utilities.</p>
+      <ul><li>Performance profiles</li><li>GPU setup</li><li>Gaming-focused system stats</li></ul>
+    </article>
+    <article class="feature-card" data-reveal>
+      <div class="icon-box">VR</div>
+      <h3>VR Ready</h3>
+      <p>Aiming for a smoother Linux VR experience with creator and gaming workflows in the same OS.</p>
+      <ul><li>VR-focused tooling</li><li>Creator integration</li><li>Gaming-first environment</li></ul>
+    </article>
+    <article class="feature-card" data-reveal>
+      <div class="icon-box">UP</div>
+      <h3>Monthly Updates</h3>
+      <p>MechOS is planned around regular feature releases, hotfixes, compatibility updates, and system improvements.</p>
+      <ul><li>Rolling fixes</li><li>Game compatibility work</li><li>Creator tool updates</li></ul>
+    </article>
+  </div>
+</section>
+
+<section class="section section-dark" id="showcase">
+  <div class="container">
+    <div class="section-heading centered" data-reveal>
+      <div class="eyebrow">INTERFACE GRAPHICS</div>
+      <h2>See MechOS in action.</h2>
+      <p>Animated showcase panels using the latest MechScope, Creator Mode, and Performance Center graphics.</p>
+    </div>
+
+    <div class="showcase-grid">
+      <article class="showcase-card tilt-card" data-reveal>
+        <div class="showcase-copy">
+          <div class="eyebrow">01 // GAME MODE</div>
+          <h3>MechScope</h3>
+          <p>A controller-friendly gaming shell with system status, quick performance info, and a streamlined library view.</p>
+        </div>
+        <div class="showcase-media"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" data-b64-src="assets/mechscope-ui.b64" alt="MechScope interface preview" /></div>
+      </article>
+
+      <article class="showcase-card reverse tilt-card" data-reveal>
+        <div class="showcase-copy">
+          <div class="eyebrow">02 // CREATE</div>
+          <h3>Creator Mode</h3>
+          <p>One-click access to your creator stack with installable tools, workflow status, and project-ready utilities.</p>
+        </div>
+        <div class="showcase-media"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" data-b64-src="assets/creator-mode-ui.b64" alt="Creator Mode interface preview" /></div>
+      </article>
+
+      <article class="showcase-card tilt-card" data-reveal>
+        <div class="showcase-copy">
+          <div class="eyebrow">03 // TUNE</div>
+          <h3>Performance Center</h3>
+          <p>Track thermals, GPU load, frame limits, fan control, driver status, and gaming profiles from one HUD-style dashboard.</p>
+        </div>
+        <div class="showcase-media"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" data-b64-src="assets/performance-center-ui.b64" alt="Performance Center interface preview" /></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark" id="modes">
+  <div class="container">
+    <div class="section-heading centered" data-reveal>
+      <div class="eyebrow">ONE OS // TWO EXPERIENCES</div>
+      <h2>Game mode when you want it. Desktop when you need it.</h2>
+    </div>
+
+    <div class="mode-grid">
+      <article class="mode-card game-mode" data-reveal>
+        <div class="mode-number">01</div>
+        <div>
+          <div class="eyebrow">MECHSCOPE</div>
+          <h3>Console Mode</h3>
+          <p>Launch into a streamlined gaming shell for controller-first navigation, performance controls, and fast access to your library.</p>
+          <div class="tag-row"><span>Controller</span><span>Steam</span><span>Quick Actions</span></div>
+        </div>
+      </article>
+
+      <article class="mode-card desktop-mode" data-reveal>
+        <div class="mode-number">02</div>
+        <div>
+          <div class="eyebrow">DESKTOP</div>
+          <h3>Creator Mode</h3>
+          <p>Switch to the full Linux desktop for creator applications, browsing, development, VRChat tooling, and normal PC use.</p>
+          <div class="tag-row"><span>Creation</span><span>Development</span><span>VR</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section container" id="roadmap">
+  <div class="section-heading" data-reveal>
+    <div class="eyebrow">DEVELOPMENT ROADMAP</div>
+    <h2>Built in public. Improved in phases.</h2>
+    <p>The roadmap below is ready to edit as MechOS development moves forward.</p>
+  </div>
+
+  <div class="timeline">
+    <article class="timeline-item complete" data-reveal>
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <span class="timeline-status">CURRENT TEST BUILD</span>
+        <h3>MechOS 0.3.0</h3>
+        <p>Core installer work, MechScope, creator workflow, performance utilities, branding, first-boot systems, and update infrastructure.</p>
+      </div>
+    </article>
+    <article class="timeline-item active" data-reveal>
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <span class="timeline-status">NEXT</span>
+        <h3>MechOS 0.3.1</h3>
+        <p>Expanded Creator Mode catalog, game engine support, compatibility scripts, store improvements, and additional gaming fixes.</p>
+      </div>
+    </article>
+    <article class="timeline-item" data-reveal>
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <span class="timeline-status">PLANNED</span>
+        <h3>MechOS 0.4.x</h3>
+        <p>More automated hardware tuning, improved VR support, stronger handheld behavior, and additional MechScope customization.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="section download-section">
+  <div class="container download-card" data-reveal>
+    <div>
+      <div class="eyebrow">DEPLOY MECHOS</div>
+      <h2>Ready to test the build?</h2>
+      <p>Use the dedicated download page for your official ISO, checksums, install guide, and release notes.</p>
+      <div class="download-notes"><span>64-bit PC</span><span>UEFI recommended</span><span>Test build</span></div>
+    </div>
+    <div class="download-actions">
+      <a class="button button-primary" href="download.html">Open Download Page</a>
+      <a class="button button-ghost" href="release-notes.html">View Release Notes</a>
+      <small>Dedicated pages are now included in this site build.</small>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/mechos-mark.svg" alt="" class="brand-mark" />
+      <span>Mech<span>OS</span></span>
+    </a>
+    <p>Built for gamers. Built for creators. Built to evolve.</p>
+    <span>© <span id="year"></span> MechOS</span>
+  </div>
+</footer>
+
+<div class="toast" role="status" aria-live="polite">
+  Replace this placeholder link with your real MechOS URL.
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
